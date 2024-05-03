@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+  <style>
+   body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container{
+    background-color:hsl(213, 19%, 18%);
+    height: 300px;
+    width: 350px;
+    padding-top: 19px;
+    border-radius: 10px;
+   }
+   .numbers{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+   }
+.num{
+height: 20px;
+width: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+border-radius: 50%;
+background-color:rgb(92, 92, 102);
+
+}
+.num:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  height: 30px;
+  margin-left: 25px;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  background-color:hsl(25, 97%, 53%);
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color:hsl(25, 97%, 53%) ;
+  cursor: pointer;
+}
+p{
+  margin-left: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+h1{
+  margin-left: 20px;
+  margin-top: 10px;
+  bottom: 10px;
+  color: white;
+}
+.image{
+  background-color:rgb(92, 92, 102);
+ height: 10px;
+ width: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 20px;
+
+
+}
+a{
+ text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+ 
+
+  <div class="container">
+    <div class="image">
+      <img src="images/icon-star.svg" alt="">
+    </div>
+  <h1> How did we do?</h1>
+
+ <p>  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering! </p>
+
+ <div class="numbers">
+  <div class="num">1</div>
+  <div class="num">2</div>
+  <div class="num">3</div>
+  <div class="num">4</div>
+  <div class="num">5</div>
+ </div>
+
+   <a href="thankyou.html"> <button>Submit</button></a>
+
+  
+</div>
+
+  <!-- Thank you state start -->
+
+  
+
+  <!-- Thank you state end -->
+
+  
+  
+  </div>
+</body>
+</html>
